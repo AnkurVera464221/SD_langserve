@@ -185,6 +185,9 @@ def handle_userinput(user_question, chain=convo_chain):
     # st.session_state.messages.append({"role": "assistant", "content": assistant_response})
 
 
+# convo_chain is the major conversation chain
+#Remove the following to remove the Langserve part
+
 #LangServe Code
 
 app = FastAPI(
